@@ -1,16 +1,33 @@
 {
+    // Vim Status Bar Settings
+    "vim.statusBarColorControl": true,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#005f5f",
+        "statusBar.noFolderBackground": "#005f5f",
+        "statusBar.debuggingBackground": "#005f5f",
+        "statusBar.foreground": "#ffffff",
+        "statusBar.debuggingForeground": "#ffffff"
+    },
+
+    // Editor Settings
     "editor.wordWrap": "on",
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "terminal.integrated.enableMultiLinePasteWarning": false,
     "editor.snippetSuggestions": "top",
     "editor.tabCompletion": "onlySnippets",
+    "breadcrumbs.enabled": false,
+    "editor.renderWhitespace": "all",
 
-    "editor.lineNumbers": "relative", 
-    // VS Code automatically highlights selected words.
-    // "vim.hlsearch": false,
+    // Vim Extension Settings
     "vim.timeout": 200,
     "vim.useSystemClipboard": true,
+    "editor.lineNumbers": "relative", 
+    "vim.useCtrlKeys": true,
+    "vim.handleKeys": {
+        "<C-f>": true,
+        "<C-a>": false
+    },
 
     // NORMAL MODE BINDS
     "vim.normalModeKeyBindings": [
@@ -55,6 +72,10 @@
             {
             "before": ["<Tab>"],
             "after": [">"]
+        },
+        {
+            "before": ["9"],
+            "after": ["$"]
         }
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
@@ -62,15 +83,7 @@
             "before": ["<S-Tab>"],
             "after": ["<"]
         }
-    ],
+    ]
     
 
-    "vim.useCtrlKeys": true,
-    "vim.handleKeys": {
-        "<C-f>": true,
-        "<C-a>": false
-    },
-    "breadcrumbs.enabled": false,
-    "editor.renderWhitespace": "all",
-    "vim-status-bar.useMonokai": true
 }
