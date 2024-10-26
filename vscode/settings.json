@@ -25,6 +25,10 @@
         {
             "before": ["v", "n"],
             "after": ["O", "<Esc>", "p"]
+        },
+        {
+            "before": ["9"],
+            "after": ["$"]
         }
     ],
     //INSERT MODE BINDS
@@ -67,6 +71,6 @@
         "<C-a>": false
     },
     "breadcrumbs.enabled": false,
-    "editor.renderWhitespace": "all"
-    // "vim-status-bar.useMonokai": true
+    "editor.renderWhitespace": "all",
+    "vim-status-bar.useMonokai": true
 }
