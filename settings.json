@@ -1,0 +1,72 @@
+{
+    "editor.wordWrap": "on",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "editor.snippetSuggestions": "top",
+    "editor.tabCompletion": "onlySnippets",
+
+    "editor.lineNumbers": "relative", 
+    // VS Code automatically highlights selected words.
+    // "vim.hlsearch": false,
+    "vim.timeout": 200,
+    "vim.useSystemClipboard": true,
+
+    // NORMAL MODE BINDS
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["c", "n"],
+            "after": ["v", "0", "g", "_", "y"]
+        },
+        {
+            "before": ["x", "n"],
+            "after": ["v", "g", "_", "y", "d", "d"]
+        },
+        {
+            "before": ["v", "n"],
+            "after": ["O", "<Esc>", "p"]
+        }
+    ],
+    //INSERT MODE BINDS
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["f", "j"],
+            "after": ["<Esc>"]
+        },
+        {
+            "before": ["j", "f"],
+            "after": ["<Esc>"]
+        }
+    ],
+    //VISUAL MODE BINDS
+    "vim.visualModeKeyBindings": [
+        {
+            "before": ["f", "j"],
+            "after": ["<Esc>"]
+        },
+        {
+            "before": ["j", "f"],
+            "after": ["<Esc>"]
+        },
+            {
+            "before": ["<Tab>"],
+            "after": [">"]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<S-Tab>"],
+            "after": ["<"]
+        }
+    ],
+    
+
+    "vim.useCtrlKeys": true,
+    "vim.handleKeys": {
+        "<C-f>": true,
+        "<C-a>": false
+    },
+    "breadcrumbs.enabled": false,
+    "editor.renderWhitespace": "all"
+    // "vim-status-bar.useMonokai": true
+}
