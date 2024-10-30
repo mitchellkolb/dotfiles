@@ -1,0 +1,58 @@
+// Place your key bindings in this file to override the defaults
+[
+    // Code Runner Bind
+    {
+        "key": "ctrl+alt+q",
+        "command": "code-runner.run"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "-code-runner.run"
+    },
+
+    // NAVIGATION
+    {
+        // Move Down Terminal
+        "key": "ctrl+shift+a",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
+    },
+    {
+        // Move UP Terminal
+        "key": "ctrl+shift+b",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus"
+    },
+    {
+        // OPEN Panel Terminal
+        "key": "ctrl+shift+j",
+        "command": "workbench.action.togglePanel"
+    },
+    {
+        // NEW Terminmal
+        "key": "ctrl+shift+n",
+        "command": "workbench.action.terminal.new",
+        "when": "terminalFocus"
+    },
+    {
+        // KILL Terminal
+        "key": "ctrl+shift+m",
+        "command": "workbench.action.terminal.kill",
+        "when": "terminalFocus"
+    },
+
+    // Removing the defualt ctrl shift m tab bind
+    {
+        "key": "ctrl+shift+m",
+        "command": "-workbench.actions.view.problems",
+        "when": "workbench.panel.markers.view.active"
+    },
+    {
+        "key": "ctrl+shift+u",
+        "command": "workbench.action.newWindow"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "-workbench.action.newWindow"
+    }
+]
