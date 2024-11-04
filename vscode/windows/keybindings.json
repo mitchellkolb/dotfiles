@@ -23,11 +23,11 @@
         "command": "workbench.action.terminal.focusPrevious",
         "when": "terminalFocus"
     },
-    {
-        // OPEN Panel Terminal
-        "key": "ctrl+shift+j",
-        "command": "workbench.action.togglePanel"
-    },
+    // {
+    //     // OPEN Panel Terminal
+    //     "key": "ctrl+shift+j",
+    //     "command": "workbench.action.togglePanel"
+    // },
     {
         // NEW Terminmal
         "key": "ctrl+shift+n",
@@ -39,6 +39,18 @@
         "key": "ctrl+shift+m",
         "command": "workbench.action.terminal.kill",
         "when": "terminalFocus"
+    },
+    {
+        // SWITCH to Code Editor from Terminal
+        "key": "ctrl+shift+e",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
+    },
+    {
+        // SWITCH to Terminal from Code Editor
+        "key": "ctrl+shift+j",
+        "command": "workbench.action.terminal.focus",
+        "when": "editorTextFocus"
     },
 
     // Removing the defualt ctrl shift m tab bind
