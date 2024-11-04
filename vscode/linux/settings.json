@@ -13,7 +13,6 @@
     "editor.wordWrap": "on",
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
-    "terminal.integrated.enableMultiLinePasteWarning": false,
     "editor.snippetSuggestions": "top",
     "editor.tabCompletion": "onlySnippets",
     "breadcrumbs.enabled": false,
@@ -45,7 +44,11 @@
         },
         {
             "before": ["9"],
-            "after": ["$"]
+            "after": ["^"]
+        },
+        {
+            "before": ["<Tab>"],
+            "after": [">"]
         }
     ],
     //INSERT MODE BINDS
@@ -75,7 +78,7 @@
         },
         {
             "before": ["9"],
-            "after": ["$"]
+            "after": ["^"]
         }
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
