@@ -1,5 +1,21 @@
 // Place your key bindings in this file to override the defaults
 [
+ 
+ 
+ 
+    // VSCODE Caps Lock removal
+    {
+        "key": "capslock",
+        "command": "vim.remap",
+        "when": "editorTextFocus && vim.mode == 'Insert'"
+    },
+    {
+        "key": "capslock",
+        "command": "vim.remap",
+        "when": "editorTextFocus && vim.mode == 'Visual'"
+    },
+
+ 
     // Code Runner Bind
     {
         "key": "ctrl+alt+q",
