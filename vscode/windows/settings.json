@@ -102,7 +102,7 @@
  
     // Vim Binds
     "vim.timeout": 200,
-    // "vim.leader": "<Esc>",
+    //"vim.leader": "<F8>",
     "vim.useSystemClipboard": true,
     "editor.lineNumbers": "relative", 
     "vim.useCtrlKeys": true,
