@@ -29,7 +29,7 @@
     // NAVIGATION
     {
         // Move Down Terminal
-        "key": "ctrl+shift+a",
+        "key": "ctrl+shift+h",
         "command": "workbench.action.terminal.focusNext",
         "when": "terminalFocus"
     },
@@ -46,7 +46,7 @@
     // },
     {
         // NEW Terminmal
-        "key": "ctrl+shift+n",
+        "key": "ctrl+shift+k",
         "command": "workbench.action.terminal.new",
         "when": "terminalFocus"
     },
@@ -58,7 +58,7 @@
     },
     {
         // SWITCH to Code Editor from Terminal
-        "key": "ctrl+shift+e",
+        "key": "ctrl+shift+n",
         "command": "workbench.action.focusActiveEditorGroup",
         "when": "terminalFocus"
     },
