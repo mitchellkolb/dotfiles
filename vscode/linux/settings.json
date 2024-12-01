@@ -53,32 +53,32 @@
     ],
     //INSERT MODE BINDS
     "vim.insertModeKeyBindings": [
-        {
-            "before": ["f", "j"],
-            "after": ["<Esc>"]
-        },
-        {
-            "before": ["j", "f"],
-            "after": ["<Esc>"]
-        }
+        // {
+        //     "before": ["f", "j"],
+        //     "after": ["<Esc>"]
+        // },
+        // {
+        //     "before": ["j", "f"],
+        //     "after": ["<Esc>"]
+        // }
     ],
     //VISUAL MODE BINDS
     "vim.visualModeKeyBindings": [
+        // {
+        //     "before": ["f", "j"],
+        //     "after": ["<Esc>"]
+        // },
+        // {
+        //     "before": ["j", "f"],
+        //     "after": ["<Esc>"]
+        // },
         {
-            "before": ["f", "j"],
-            "after": ["<Esc>"]
-        },
-        {
-            "before": ["j", "f"],
-            "after": ["<Esc>"]
-        },
-            {
             "before": ["<Tab>"],
             "after": [">"]
         },
         {
             "before": ["9"],
-            "after": ["^"]
+            "after": ["$"]
         }
     ],
     "vim.visualModeKeyBindingsNonRecursive": [

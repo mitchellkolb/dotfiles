@@ -1,16 +1,35 @@
 // Place your key bindings in this file to override the defaults
 [
+ 
+ 
+ 
+    // VSCODE Caps Lock removal
+    {
+        "key": "capslock",
+        "command": "vim.remap",
+        "when": "editorTextFocus && vim.mode == 'Insert'"
+    },
+    {
+        "key": "capslock",
+        "command": "vim.remap",
+        "when": "editorTextFocus && vim.mode == 'Visual'"
+    },
 
-    
+ 
+    // Code Runner Bind
     {
         "key": "ctrl+alt+q",
-        "command": "python.execInTerminal-icon"
+        "command": "code-runner.run"
     },
-    
+    {
+        "key": "ctrl+alt+n",
+        "command": "-code-runner.run"
+    },
+
     // NAVIGATION
     {
         // Move Down Terminal
-        "key": "ctrl+shift+a",
+        "key": "ctrl+shift+h",
         "command": "workbench.action.terminal.focusNext",
         "when": "terminalFocus"
     },
@@ -27,7 +46,7 @@
     // },
     {
         // NEW Terminmal
-        "key": "ctrl+shift+n",
+        "key": "ctrl+shift+k",
         "command": "workbench.action.terminal.new",
         "when": "terminalFocus"
     },
@@ -39,7 +58,7 @@
     },
     {
         // SWITCH to Code Editor from Terminal
-        "key": "ctrl+shift+e",
+        "key": "ctrl+shift+n",
         "command": "workbench.action.focusActiveEditorGroup",
         "when": "terminalFocus"
     },
@@ -49,8 +68,8 @@
         "command": "workbench.action.terminal.focus",
         "when": "editorTextFocus"
     },
-    
-        // Removing the defualt ctrl shift m tab bind
+
+    // Removing the defualt ctrl shift m tab bind
     {
         "key": "ctrl+shift+m",
         "command": "-workbench.actions.view.problems",
@@ -63,5 +82,29 @@
     {
         "key": "ctrl+shift+n",
         "command": "-workbench.action.newWindow"
+    },
+
+    // For new keyboard I have my mode switching key my caps lock key which I rebinded to F8 so these below are to rebind the F8 to the mode key
+    {
+        "key": "f8",
+        "command": "-editor.action.marker.nextInFiles",
+        "when": "editorFocus"
+    },
+    {
+        "key": "f8",
+        "command": "-PowerShell.RunSelection",
+        "when": "editorTextFocus && editorLangId == 'powershell'"
+    },
+    {
+        "key": "f8",
+        "command": "extension.vim_escape",
+        "when": "editorTextFocus && vim.active && !inDebugRepl"
+    },
+    {
+        "key": "escape",
+        "command": "-extension.vim_escape",
+        "when": "editorTextFocus && vim.active && !inDebugRepl"
     }
+
+    //  Next bind...
 ]

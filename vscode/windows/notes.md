@@ -14,7 +14,12 @@ C:\Users\<YourUsername>\AppData\Roaming\Code\User\keybindings.json
 
 
 
+My current keyboard has on board memory for rebindings for specific keys for example:
+- Caps lock key is binded to F8 becuase that is used to switch modes in the vscode vim extension.
+- 
 
+
+For keyboards that don't have rebindings and/or on board memory for windows you can use this method to make my setup usable.
 Use the program microsoft powertoys to unbind and the caps lock key to the Esc key to make the vim experience less painful:
 
 Remap Caps Lock to Escape in PowerToys (for VSCode)
