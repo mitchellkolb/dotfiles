@@ -68,7 +68,7 @@
         "command": "workbench.action.terminal.focus",
         "when": "editorTextFocus"
     },
-
+    
     // Removing the defualt ctrl shift m tab bind
     {
         "key": "ctrl+shift+m",
