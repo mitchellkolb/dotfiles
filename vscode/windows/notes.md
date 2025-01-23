@@ -31,3 +31,9 @@ Remap Caps Lock to Escape in PowerToys (for VSCode)
     - For Mapped To (on the right), choose Escape.
     - Click OK to save this mapping.
     - (Optional) If you only want this remapping to apply when VSCode is active, go to Remap shortcuts instead and specify VSCode as the targeted application.
+
+VIM Keybinds to remember:
+- ctrl + y
+    - moves the code editor window view up one line without adjusting the cursor
+- ctrl + e
+    - moves the code editor window view down one line without adjusting the cursor
